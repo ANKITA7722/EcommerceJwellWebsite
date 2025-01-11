@@ -42,6 +42,4 @@ mongoose.connect(process.env.DBCON).then(() => {
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
-});
-
-// hello
+})
