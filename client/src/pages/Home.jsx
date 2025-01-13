@@ -90,25 +90,25 @@ const Home = () => {
                         margin: "0 auto",
                     }}
                 >
-                    {dots.slice(0, 6)} {/* Show only the first 6 bullets */}
+                    {dots.slice(0, 6)} 
                 </ul>
             </div>
         ),
         responsive: [
             {
-                breakpoint: 1200, // For large screens
+                breakpoint: 1200,
                 settings: {
                     slidesToShow: 3,
                 },
             },
             {
-                breakpoint: 992, // For medium screens
+                breakpoint: 992, 
                 settings: {
                     slidesToShow: 2,
                 },
             },
             {
-                breakpoint: 768, // For small screens
+                breakpoint: 768, 
                 settings: {
                     slidesToShow: 1,
                 },
@@ -124,7 +124,7 @@ const Home = () => {
         let api = "http://localhost:8000/product/showproduct";
         axios.get(api).then((res) => {
             setMydata(res.data);
-            console.log(res.data);
+           // console.log(res.data);
         })
     }
 

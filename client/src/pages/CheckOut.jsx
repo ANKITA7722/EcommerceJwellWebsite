@@ -82,10 +82,6 @@ const CheckOut=()=>{
   }
 
 
-
-
-
-
     let sno=0;
   let totalAmount=0;
   let proname="";
@@ -124,18 +120,6 @@ const CheckOut=()=>{
 
 
 
-
-
-
-
-
-   
-
-
-
-
-
-
     return(
         <>
         <div id="payPage">
@@ -168,16 +152,9 @@ const CheckOut=()=>{
     </Form>
 
 
-   
-
-
-
 
               </div>
                <div id="payMethod">
-                
-                
-                
                 
                <Table striped bordered hover>
       <thead>
@@ -199,9 +176,9 @@ const CheckOut=()=>{
           <tr>
           <th> </th>
           <th> </th>
-          <th></th>
-          <th></th>
-          <th></th>
+          <th> </th>
+          <th> </th>
+          <th> </th>
           <th>  </th>
           <th> Net Amount</th>
           <th> {totalAmount}</th>
