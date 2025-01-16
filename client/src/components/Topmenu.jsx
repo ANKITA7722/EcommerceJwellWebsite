@@ -45,16 +45,15 @@ const Topmenu = () => {
     const cartLen = mycard.length;
     return (
         <>
-            <div id="topmenu">
-
+            <div id="topmenu"  >
                 <span id="carticon">{cartLen}</span>
                 <a href="#" onClick={cartPage}>
-                    <TiShoppingCart id="icon" />
+                    <TiShoppingCart id="icon" style={{color:"black"}}/>
                 </a>
 
 
                 <a href="#" onClick={handleShow}>
-                    <FaUserCircle id="icon" />
+                    <FaUserCircle id="icon" style={{color:"black"}}/>
                 </a>
             </div>
 
