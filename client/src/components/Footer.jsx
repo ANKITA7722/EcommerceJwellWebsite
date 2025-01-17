@@ -35,7 +35,7 @@ const Footer = () => {
         <div>
           <h3>Contact Us</h3>
           <p>Where's My Order?</p>
-          <p>wattsapp</p>
+          <p>whatsapp</p>
           <p><TbPhoneCalling style={{fontSize:"25px"}}/>7722843205</p>
           <p><CgMail style={{fontSize:"25px"}}/>bobdeankita24@gmail.com</p>
 
