@@ -7,7 +7,7 @@ import ReactPlayer from 'react-player'
 import vedio from "../images/bde.mp4"
 import vedio1 from "../images/Bidv.mp4"
 import vedio2 from "../images/BIPM.mp4"
-import vedio3 from "../images/Bridal.mp4"
+// import vedio3 from "../images/Bridal.mp4"
 
 
 import nec from "../images/earing.webp";
@@ -187,16 +187,6 @@ const Home = () => {
             <div id="Home">
 
                 <Carousel >
-
-                    {/* <Carousel.Item height="500px" width="100%" style={{display:"flex",color:"white"}}>
-                    <ReactPlayer controls={true} url={vedio3} loop={true} playing={true} muted={true}/>
-                    <div className='textarea'>
-                         <h1>best brands for trininka</h1>
-                         <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est laboriosam voluptate, facilis ipsum provident ipsa natus ipsam ex nostrum sequi </h6>
-                         <Button>Shop Now</Button>
-                    </div>
-                    </Carousel.Item> */}
-
                     <Carousel.Item>
                         <img src={second} height="500px" width="100%" />
 
