@@ -5,7 +5,7 @@ import third from "../images/third.webp";
 
 import ReactPlayer from 'react-player'
 import vedio from "../images/bde.mp4"
-import vedio1 from "../images/Bidv.mp4"
+import vedio1 from "../images/BIdv.mp4"
 import vedio2 from "../images/BIPM.mp4"
 // import vedio3 from "../images/Bridal.mp4"
 
