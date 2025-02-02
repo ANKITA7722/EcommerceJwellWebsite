@@ -60,7 +60,7 @@ const Header = () => {
                   <NavDropdown.Item as={Link} to="">Acccessorice</NavDropdown.Item>
 
                 </NavDropdown>
-                <Nav.Link as={Link} to="radytoship">READY TO SHIP</Nav.Link>
+                {/* <Nav.Link as={Link} to="radytoship">READY TO SHIP</Nav.Link> */}
 
                 <Nav.Link as={Link} to="sale">SALE</Nav.Link>
                 <Nav.Link as={Link} to="customerdetails">CustomerDetails</Nav.Link>

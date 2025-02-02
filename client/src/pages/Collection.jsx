@@ -17,14 +17,14 @@
     return(
         <>
         <div id="collection1">
-            <a href="#"onClick={()=>{navigate("/longneckless")}}>
+            <a href="#"onClick={()=>{navigate("/LongNecklaces")}}>
             <img src={LongNeck}/>
             </a>
             
         </div>
 
         <div id="collection1">
-        <a href="#"onClick={()=>{navigate("/neckless")}}>
+        <a href="#"onClick={()=>{navigate("/Necklass")}}>
             <img src={Neck1}/>
             </a>
         </div>
