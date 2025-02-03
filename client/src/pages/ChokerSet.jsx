@@ -13,7 +13,7 @@ const ChokerSet = () => {
     const navigate = useNavigate();
 
     const loadData = () => {
-        let api = "http://localhost:8000/product/showproductbycategory?category=Choker";
+        let api = "https://ecommercejwellwebsite-4.onrender.com/product/showproductbycategory?category=Choker";
         axios.get(api).then((res) => {
             setMydata(res.data);
             console.log(res.data);

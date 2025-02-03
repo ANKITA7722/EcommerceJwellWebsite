@@ -121,7 +121,7 @@ const Home = () => {
     const navigate = useNavigate();
 
     const loadData = () => {
-        let api = "http://localhost:8000/product/showproduct";
+        let api = "https://ecommercejwellwebsite-4.onrender.com/product/showproduct";
         axios.get(api).then((res) => {
             setMydata(res.data);
            // console.log(res.data);

@@ -13,7 +13,7 @@ const ProductDetail = () => {
 
     const loadData = async () => {
         try {
-            const api = "http://localhost:8000/product/productdetail";
+            const api = "https://ecommercejwellwebsite-4.onrender.com/product/productdetail";
             const response = await axios.post(api, { id: proid });
             setMydata(response.data);
         } catch (error) {

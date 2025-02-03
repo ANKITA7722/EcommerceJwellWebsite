@@ -13,7 +13,7 @@ const Earring = () => {
     const navigate = useNavigate();
 
     const loadData = () => {
-        let api = "http://localhost:8000/product/showproductbycategory?category=Earring";
+        let api = "https://ecommercejwellwebsite-4.onrender.com/product/showproductbycategory?category=Earring";
         axios.get(api).then((res) => {
             setMydata(res.data);
             console.log(res.data);

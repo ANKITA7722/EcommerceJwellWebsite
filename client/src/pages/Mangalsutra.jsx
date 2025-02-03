@@ -14,7 +14,7 @@ const Mangalsutra = () => {
     const navigate = useNavigate();
 
     const loadData = () => {
-        let api = "http://localhost:8000/product/showproductbycategory?category=Mangalsutra";
+        let api = "https://ecommercejwellwebsite-4.onrender.com/product/showproductbycategory?category=Mangalsutra";
         axios.get(api).then((res) => {
             setMydata(res.data);
             console.log(res.data);

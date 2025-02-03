@@ -26,7 +26,7 @@ const CheckOut=()=>{
       order_id: data.id,
       handler: async (response) => {
         try {
-          const verifyURL = "https://localhost:8000/api/payment/verify";
+          const verifyURL = "https://ecommercejwellwebsite-4.onrender.com/api/payment/verify";
           const {data} = await axios.post(verifyURL,response);
         } catch(error) {
           console.log(error);
@@ -55,7 +55,7 @@ const CheckOut=()=>{
    )
     
     try {
-      const orderURL = "http://localhost:8000/api/payment/orders";
+      const orderURL = "https://ecommercejwellwebsite-4.onrender.com/api/payment/orders";
       const {data} = await axios.post(orderURL,{amount: mypro.price});
       console.log(data);
       initPay(data.data);
@@ -65,7 +65,7 @@ const CheckOut=()=>{
  
  
  
-    const api = "http://localhost:8000/users/usersave";  
+    const api = "https://ecommercejwellwebsite-4.onrender.com/users/usersave";  
     axios.post(api, {...input, proname:mypro.name, price:mypro.price}).then((res)=>{
       console.log("Data save!!!");
     })

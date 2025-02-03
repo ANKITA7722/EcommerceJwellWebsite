@@ -20,7 +20,7 @@ const ShopProduct = () => {
   };
 
   const handleSubmit = () => {
-    let api = "http://localhost:8000/product/shopproduct";
+    let api = "https://ecommercejwellwebsite-4.onrender.com/product/shopproduct";
     axios.post(api, input).then((res) => {
       setMydata(res.data);
     });
