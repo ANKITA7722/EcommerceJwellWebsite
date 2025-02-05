@@ -41,10 +41,6 @@ const CheckOut=()=>{
   };
   
   const handlePay = async () => {
-
-  
-
-
  await  setMypro(
     {
       name: proname,
@@ -71,9 +67,6 @@ const CheckOut=()=>{
     })
  
   };
-  
-
-
   const handleInput=(e)=>{
     let name=e.target.name;
     let value=e.target.value;

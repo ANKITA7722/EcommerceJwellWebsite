@@ -76,7 +76,6 @@ const ChokerSet = () => {
         <>
          <div id='img1' style={{boxSizing:"border-box",paddingRight:"40px",  }}>
                                 <img src={img1}  style={{width:"100%",margin:"20px",height:"390px" }}/>
-                
                             </div>
             <div id='CardCloudImg'>
                 {ans}
